@@ -73,6 +73,18 @@ SUMMARY:Flash Co @ Scarborough
 DTSTART;VALUE=DATE:20240621
 DTEND;VALUE=DATE:20240623
 UID:2024-06-21
+ATTENDEE;CN="Test Required";ROLE=REQ-PARTICIPANT:MAILTO:test-required@exam
+ ple.com
+ATTENDEE;CN="Test Optional";ROLE=OPT-PARTICIPANT:MAILTO:test-optional@exam
+ ple.com
+ATTENDEE;CN="Test Needs Action";PARTSTAT=NEEDS-ACTION:MAILTO:test-needs-ac
+ tion@example.com
+ATTENDEE;CN="Test Accepted";PARTSTAT=ACCEPTED:MAILTO:test-accepted@example
+ .com
+ATTENDEE;CN="Test Declined";PARTSTAT=DECLINED:MAILTO:test-declined@example
+ .com
+ATTENDEE;CN="Test Tentative";PARTSTAT=TENTATIVE:MAILTO:test-tentative@exam
+ ple.com
 COLOR:gold
 DESCRIPTION:Flash Company Dance Out
 LOCATION:Scarborough\, North Yorkshire\, UK
@@ -82,6 +94,18 @@ SUMMARY:Flash Co @ Saltburn
 DTSTART;VALUE=DATE:20240629
 DTEND;VALUE=DATE:20240629
 UID:2024-06-29
+ATTENDEE;CN="Test Required";ROLE=REQ-PARTICIPANT:MAILTO:test-required@exam
+ ple.com
+ATTENDEE;CN="Test Optional";ROLE=OPT-PARTICIPANT:MAILTO:test-optional@exam
+ ple.com
+ATTENDEE;CN="Test Needs Action";PARTSTAT=NEEDS-ACTION:MAILTO:test-needs-ac
+ tion@example.com
+ATTENDEE;CN="Test Accepted";PARTSTAT=ACCEPTED:MAILTO:test-accepted@example
+ .com
+ATTENDEE;CN="Test Declined";PARTSTAT=DECLINED:MAILTO:test-declined@example
+ .com
+ATTENDEE;CN="Test Tentative";PARTSTAT=TENTATIVE:MAILTO:test-tentative@exam
+ ple.com
 COLOR:gold
 DESCRIPTION:Flash Company Dance Out
 LOCATION:Saltburn-by-the-Sea\, North Yorkshire\, UK
@@ -91,6 +115,18 @@ SUMMARY:Flash Co @ Southwell Festival
 DTSTART;VALUE=DATE:20240704
 DTEND;VALUE=DATE:20240707
 UID:2024-07-04
+ATTENDEE;CN="Test Required";ROLE=REQ-PARTICIPANT:MAILTO:test-required@exam
+ ple.com
+ATTENDEE;CN="Test Optional";ROLE=OPT-PARTICIPANT:MAILTO:test-optional@exam
+ ple.com
+ATTENDEE;CN="Test Needs Action";PARTSTAT=NEEDS-ACTION:MAILTO:test-needs-ac
+ tion@example.com
+ATTENDEE;CN="Test Accepted";PARTSTAT=ACCEPTED:MAILTO:test-accepted@example
+ .com
+ATTENDEE;CN="Test Declined";PARTSTAT=DECLINED:MAILTO:test-declined@example
+ .com
+ATTENDEE;CN="Test Tentative";PARTSTAT=TENTATIVE:MAILTO:test-tentative@exam
+ ple.com
 COLOR:gold
 DESCRIPTION:Flash Company Dance Out
 LOCATION:Southwell\, Nottinghamshire\, UK
