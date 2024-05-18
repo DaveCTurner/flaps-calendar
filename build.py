@@ -7,6 +7,7 @@ cal['prodid']       = vText('-//DCT//DCT//EN')
 cal['version']      = vText('2.0')
 cal['name']         = vText('Flash Company Morris')
 cal['x-wr-calname'] = vText('Flash Company Morris')
+cal['color']        = vText('gold')
 
 event = Event()
 event['summary']     = vText('Flash Company Rehearsal')

@@ -1,6 +1,7 @@
 BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//DCT//DCT//EN
+COLOR:gold
 NAME:Flash Company Morris
 X-WR-CALNAME:Flash Company Morris
 BEGIN:VEVENT
