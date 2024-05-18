@@ -4,18 +4,19 @@ import pytz
 import json
 
 cal = Calendar()
-cal['prodid']       = vText('-//DCT//DCT//EN')
-cal['version']      = vText('2.0')
-cal['name']         = vText('Flash Company Morris')
-cal['x-wr-calname'] = vText('Flash Company Morris')
-cal['color']        = vText('gold')
+cal['prodid']        = vText('-//DCT//DCT//EN')
+cal['version']       = vText('2.0')
+cal['name']          = vText('Flash Company Morris')
+cal['x-wr-calname']  = vText('Flash Company Morris')
+cal['x-wr-timezone'] = vText('Europe/London')
+cal['color']         = vText('gold')
 
 with open('flash_company_rehearsals.json', 'r') as f:
     rehearsals_raw = json.load(f)
 
 for rehearsal_date, rehearsal_meta in rehearsals_raw.items():
     summary  = 'Flash Co'
-    location = 'Clifton Village Hall, Otley, LS21 2ES'
+    location = 'Clifton Village Hall, Otley, LS21 2ES, UK'
     date_split = rehearsal_date.split('-')
     start_time = datetime(int(date_split[0]), int(date_split[1]), int(date_split[2]), 17, 0, 0, tzinfo=pytz.timezone('Europe/London'))
     if 'start' in rehearsal_meta:

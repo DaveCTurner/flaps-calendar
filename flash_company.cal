@@ -4,6 +4,7 @@ PRODID:-//DCT//DCT//EN
 COLOR:gold
 NAME:Flash Company Morris
 X-WR-CALNAME:Flash Company Morris
+X-WR-TIMEZONE:Europe/London
 BEGIN:VEVENT
 SUMMARY:Flash Co
 DTSTART;TZID=Europe/London:20240519T170000
@@ -11,7 +12,7 @@ DURATION:PT2H
 UID:2024-05-19
 COLOR:gold
 DESCRIPTION:Regular Flash Company rehearsal
-LOCATION:Clifton Village Hall\, Otley\, LS21 2ES
+LOCATION:Clifton Village Hall\, Otley\, LS21 2ES\, UK
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Flash Co
@@ -20,7 +21,7 @@ DURATION:PT2H
 UID:2024-06-02
 COLOR:gold
 DESCRIPTION:Regular Flash Company rehearsal
-LOCATION:Clifton Village Hall\, Otley\, LS21 2ES
+LOCATION:Clifton Village Hall\, Otley\, LS21 2ES\, UK
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Flash Co
@@ -29,7 +30,7 @@ DURATION:PT2H
 UID:2024-06-16
 COLOR:gold
 DESCRIPTION:Regular Flash Company rehearsal
-LOCATION:Clifton Village Hall\, Otley\, LS21 2ES
+LOCATION:Clifton Village Hall\, Otley\, LS21 2ES\, UK
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Flash Co NB START TIME
@@ -38,7 +39,7 @@ DURATION:PT2H
 UID:2024-07-14
 COLOR:gold
 DESCRIPTION:Regular Flash Company rehearsal
-LOCATION:Clifton Village Hall\, Otley\, LS21 2ES
+LOCATION:Clifton Village Hall\, Otley\, LS21 2ES\, UK
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Flash Co
@@ -47,7 +48,7 @@ DURATION:PT2H
 UID:2024-07-28
 COLOR:gold
 DESCRIPTION:Regular Flash Company rehearsal
-LOCATION:Clifton Village Hall\, Otley\, LS21 2ES
+LOCATION:Clifton Village Hall\, Otley\, LS21 2ES\, UK
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Flash Co
@@ -56,7 +57,7 @@ DURATION:PT2H
 UID:2024-08-11
 COLOR:gold
 DESCRIPTION:Regular Flash Company rehearsal
-LOCATION:Clifton Village Hall\, Otley\, LS21 2ES
+LOCATION:Clifton Village Hall\, Otley\, LS21 2ES\, UK
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Flash Co
@@ -65,7 +66,7 @@ DURATION:PT2H
 UID:2024-08-25
 COLOR:gold
 DESCRIPTION:Regular Flash Company rehearsal
-LOCATION:Clifton Village Hall\, Otley\, LS21 2ES
+LOCATION:Clifton Village Hall\, Otley\, LS21 2ES\, UK
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Flash Co @ Scarborough
@@ -74,7 +75,7 @@ DTEND;VALUE=DATE:20240623
 UID:2024-06-21
 COLOR:gold
 DESCRIPTION:Flash Company Dance Out
-LOCATION:Scarborough\, North Yorkshire
+LOCATION:Scarborough\, North Yorkshire\, UK
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Flash Co @ Saltburn
@@ -83,7 +84,7 @@ DTEND;VALUE=DATE:20240629
 UID:2024-06-29
 COLOR:gold
 DESCRIPTION:Flash Company Dance Out
-LOCATION:Saltburn-by-the-Sea\, North Yorkshire
+LOCATION:Saltburn-by-the-Sea\, North Yorkshire\, UK
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Flash Co @ Southwell Festival
@@ -92,6 +93,6 @@ DTEND;VALUE=DATE:20240707
 UID:2024-07-04
 COLOR:gold
 DESCRIPTION:Flash Company Dance Out
-LOCATION:Southwell\, Nottinghamshire
+LOCATION:Southwell\, Nottinghamshire\, UK
 END:VEVENT
 END:VCALENDAR
