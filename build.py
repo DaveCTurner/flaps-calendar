@@ -54,35 +54,17 @@ for event_raw in events_raw:
     event.add('dtend',   date(int(date_end_split[0]),   int(date_end_split[1]),   int(date_end_split[2])))
     event['color']       = vText('gold')
 
-    attendee = vCalAddress('MAILTO:test-required@example.com')
-    attendee.params['cn'] = vText('Test Required')
-    attendee.params['role'] = vText('REQ-PARTICIPANT')
-    event.add('attendee', attendee, encode=0)
+    attendee_id = 0
 
-    attendee = vCalAddress('MAILTO:test-optional@example.com')
-    attendee.params['cn'] = vText('Test Optional')
-    attendee.params['role'] = vText('OPT-PARTICIPANT')
-    event.add('attendee', attendee, encode=0)
-
-    attendee = vCalAddress('MAILTO:test-needs-action@example.com')
-    attendee.params['cn'] = vText('Test Needs Action')
-    attendee.params['partstat'] = vText('NEEDS-ACTION')
-    event.add('attendee', attendee, encode=0)
-
-    attendee = vCalAddress('MAILTO:test-accepted@example.com')
-    attendee.params['cn'] = vText('Test Accepted')
-    attendee.params['partstat'] = vText('ACCEPTED')
-    event.add('attendee', attendee, encode=0)
-
-    attendee = vCalAddress('MAILTO:test-declined@example.com')
-    attendee.params['cn'] = vText('Test Declined')
-    attendee.params['partstat'] = vText('DECLINED')
-    event.add('attendee', attendee, encode=0)
-
-    attendee = vCalAddress('MAILTO:test-tentative@example.com')
-    attendee.params['cn'] = vText('Test Tentative')
-    attendee.params['partstat'] = vText('TENTATIVE')
-    event.add('attendee', attendee, encode=0)
+    for role in ['REQ-PARTICIPANT', 'OPT-PARTITIPANT']:
+        for partstat in ['NEEDS-ACTION', 'ACCEPTED', 'DECLINED', 'TENTATIVE']:
+            attendee_id += 1
+            attendee = vCalAddress('MAILTO:test-' + str(attendee_id) + '@example.com')
+            attendee.params['cn']       = vText('Test ' + str(attendee_id))
+            attendee.params['cutype'  ] = vText('INDIVIDUAL')
+            attendee.params['role']     = vText(role)
+            attendee.params['partstat'] = vText(partstat)
+            event.add('attendee', attendee, encode=0)
 
     cal.add_component(event)
 
