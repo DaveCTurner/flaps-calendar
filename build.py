@@ -3,12 +3,15 @@ from datetime import datetime
 import pytz
 
 cal = Calendar()
+cal['name'] = vText('Flash Company Morris')
 
 event = Event()
-event['description'] = vText('Flash Company Rehearsal')
+event['summary'] = vText('Flash Company Rehearsal')
+event['description'] = vText('Regular rehearsal')
 event['uid'] = vText('2024-05-18')
 event.add('dtstart', datetime(2024, 5, 18, 17, 0, 0, tzinfo=pytz.timezone('Europe/London')))
-event['location'] = vText('Clifton Village Hall, Clifton, Yorkshire')
+event.add('dtend',   datetime(2024, 5, 18, 19, 0, 0, tzinfo=pytz.timezone('Europe/London')))
+event['location'] = vText('Clifton Village Hall, Otley, North Yorkshire, LS21 2ES')
 
 cal.add_component(event)
 
