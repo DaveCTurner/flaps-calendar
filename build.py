@@ -1,5 +1,5 @@
 from icalendar import Calendar, Event, vText
-from datetime import datetime, date
+from datetime import datetime, date, timedelta
 import pytz
 import yaml
 
@@ -51,7 +51,7 @@ for event_raw in events_raw:
     event['description'] = vText('Flash Company Dance Out')
     event['location']    = vText(event_raw['location'])
     event.add('dtstart', date(int(date_start_split[0]), int(date_start_split[1]), int(date_start_split[2])))
-    event.add('dtend',   date(int(date_end_split[0]),   int(date_end_split[1]),   int(date_end_split[2])))
+    event.add('dtend',   date(int(date_end_split[0]),   int(date_end_split[1]),   int(date_end_split[2])) + timedelta(days=1))
     event['color']       = vText('gold')
     cal.add_component(event)
 
