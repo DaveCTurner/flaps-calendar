@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Scarborough",
+    "location": "Scarborough, North Yorkshire",
+    "start_day": "2024-06-21",
+    "end_day": "2024-06-23"
+  },
+  {
+    "name": "Saltburn",
+    "location": "Saltburn-by-the-Sea, North Yorkshire",
+    "start_day": "2024-06-29",
+    "end_day": "2024-06-29"
+  },
+  {
+    "name": "Southwell Festival",
+    "location": "Southwell, Nottinghamshire",
+    "start_day": "2024-07-04",
+    "end_day": "2024-07-07"
+  }
+]
