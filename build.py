@@ -47,7 +47,7 @@ for event_raw in events_raw:
 
     event = Event()
     event['uid']         = vText(event_raw['start_day'])
-    event['summary']     = vText('Flash Co @ ' + event_raw['name'])
+    event['summary']     = vText(('TBC ' if 'tbc' in event_raw else '') + 'Flash Co @ ' + event_raw['name'])
     event['description'] = vText(event_raw['description'])
     event['location']    = vText(event_raw['location'])
     event.add('dtstart', date(int(date_start_split[0]), int(date_start_split[1]), int(date_start_split[2])))
