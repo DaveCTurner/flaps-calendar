@@ -59,11 +59,12 @@ for event_raw in events_raw:
     for role in ['REQ-PARTICIPANT', 'OPT-PARTITIPANT']:
         for partstat in ['NEEDS-ACTION', 'ACCEPTED', 'DECLINED', 'TENTATIVE']:
             attendee_id += 1
-            attendee = vCalAddress('MAILTO:test-' + str(attendee_id) + '@example.com')
-            attendee.params['cn']       = vText('Test ' + str(attendee_id))
-            attendee.params['cutype'  ] = vText('INDIVIDUAL')
-            attendee.params['role']     = vText(role)
-            attendee.params['partstat'] = vText(partstat)
+            attendee = vCalAddress('MAILTO:test-' + str(attendee_id) + '@flashco.tessanddave.com')
+            attendee.params['cutype'  ]     = vText('INDIVIDUAL')
+            attendee.params['role']         = vText(role)
+            attendee.params['partstat']     = vText(partstat)
+            attendee.params['cn']           = vText('Test ' + str(attendee_id))
+            attendee.params['x-num-guests'] = vText('0')
             event.add('attendee', attendee, encode=0)
 
     cal.add_component(event)
