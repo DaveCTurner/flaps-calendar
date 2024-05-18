@@ -9,7 +9,8 @@ SUMMARY:Flash Company Rehearsal
 DTSTART;TZID=Europe/London:20240518T170000
 DTEND;TZID=Europe/London:20240518T190000
 UID:2024-05-18
+COLOR:gold
 DESCRIPTION:Regular rehearsal
-LOCATION:Clifton Village Hall\, Otley\, North Yorkshire\, LS21 2ES
+LOCATION:Clifton Village Hall\nOtley\nLS21 2ES
 END:VEVENT
 END:VCALENDAR

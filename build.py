@@ -15,7 +15,8 @@ event['description'] = vText('Regular rehearsal')
 event['uid']         = vText('2024-05-18')
 event.add('dtstart', datetime(2024, 5, 18, 17, 0, 0, tzinfo=pytz.timezone('Europe/London')))
 event.add('dtend',   datetime(2024, 5, 18, 19, 0, 0, tzinfo=pytz.timezone('Europe/London')))
-event['location']    = vText('Clifton Village Hall, Otley, North Yorkshire, LS21 2ES')
+event['location']    = vText('Clifton Village Hall\nOtley\nLS21 2ES')
+event['color']       = vText('gold')
 
 cal.add_component(event)
 
