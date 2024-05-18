@@ -37,7 +37,7 @@ for rehearsal_date, rehearsal_meta in rehearsals_raw.items():
 
     cal.add_component(event)
 
-with open('test.cal', 'wb') as f:
+with open('flash_company.cal', 'wb') as f:
     f.write(cal.to_ical())
 
 
