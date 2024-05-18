@@ -1,7 +1,7 @@
 from icalendar import Calendar, Event, vText
 from datetime import datetime, date
 import pytz
-import json
+import yaml
 
 cal = Calendar()
 cal['prodid']        = vText('-//DCT//DCT//EN')
@@ -11,8 +11,8 @@ cal['x-wr-calname']  = vText('Flash Company Morris')
 cal['x-wr-timezone'] = vText('Europe/London')
 cal['color']         = vText('gold')
 
-with open('flash_company_rehearsals.json', 'r') as f:
-    rehearsals_raw = json.load(f)
+with open('flash_company_rehearsals.yaml', 'r') as f:
+    rehearsals_raw = yaml.load(f, Loader=yaml.Loader)
 
 for rehearsal_date, rehearsal_meta in rehearsals_raw.items():
     summary  = 'Flash Co'
@@ -38,8 +38,8 @@ for rehearsal_date, rehearsal_meta in rehearsals_raw.items():
     event['color']       = vText('gold')
     cal.add_component(event)
 
-with open('flash_company_events.json', 'r') as f:
-    events_raw = json.load(f)
+with open('flash_company_events.yaml', 'r') as f:
+    events_raw = yaml.load(f, Loader=yaml.Loader)
 
 for event_raw in events_raw:
     date_start_split = event_raw['start_day'].split('-')
