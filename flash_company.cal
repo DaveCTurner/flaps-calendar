@@ -74,7 +74,7 @@ DTSTART;VALUE=DATE:20240621
 DTEND;VALUE=DATE:20240624
 UID:2024-06-21
 COLOR:gold
-DESCRIPTION:Flash Company Dance Out
+DESCRIPTION:Yorkshire Coast Morris Weekend 2024
 LOCATION:Scarborough\, North Yorkshire\, UK
 END:VEVENT
 BEGIN:VEVENT
@@ -83,16 +83,16 @@ DTSTART;VALUE=DATE:20240629
 DTEND;VALUE=DATE:20240630
 UID:2024-06-29
 COLOR:gold
-DESCRIPTION:Flash Company Dance Out
+DESCRIPTION:Jet Set Border Morris Day Of Dance 2024
 LOCATION:Saltburn-by-the-Sea\, North Yorkshire\, UK
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Flash Co @ Southwell Festival
+SUMMARY:Flash Co @ Southwell
 DTSTART;VALUE=DATE:20240704
 DTEND;VALUE=DATE:20240708
 UID:2024-07-04
 COLOR:gold
-DESCRIPTION:Flash Company Dance Out
+DESCRIPTION:Gate to Southwell Festival 2024
 LOCATION:Gate to Southwell Festival\, Eakring Lane\, Kirklington\, NG22 8N
  X\, UK
 END:VEVENT
