@@ -61,7 +61,7 @@ with open('events.yaml', 'r') as f:
 
 for event_raw in events_raw:
     for group_name in event_raw['groups']:
-        match rehearsal_meta['group']:
+        match group_name:
             case 'flash':
                 group_name  = 'Flash Co'
                 cal = cals['flash']
