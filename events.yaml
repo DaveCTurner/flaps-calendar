@@ -1,4 +1,12 @@
-- groups: [flash]
+- groups: [taps]
+  name: Ilkley Bandstand
+  description: |
+    Buttercross Belles at Ilkley Bandstand 2024
+  location: The Grove, Ilkley, LS29 9EG, UK
+  start_time: '2024-06-20T19:30'
+  end_time:   '2024-06-20T21:00'
+
+- groups: [flash,taps]
   name: Scarborough
   description: Yorkshire Coast Morris Weekend 2024
   location: Scarborough, North Yorkshire, UK

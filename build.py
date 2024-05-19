@@ -19,6 +19,8 @@ cals['taps']['name']          = vText('Kitchen Taps')
 cals['taps']['x-wr-calname']  = vText('Kitchen Taps')
 cals['taps']['x-wr-timezone'] = vText('Europe/London')
 
+tz = pytz.timezone('Europe/London')
+
 with open('rehearsals.yaml', 'r') as f:
     rehearsals_raw = yaml.load(f, Loader=yaml.Loader)
 
@@ -37,7 +39,7 @@ for rehearsal_meta in rehearsals_raw:
 
     location = 'Clifton Village Hall, Otley, LS21 2ES, UK'
     date_split = rehearsal_meta['date'].split('-')
-    start_time = datetime(int(date_split[0]), int(date_split[1]), int(date_split[2]), 17, 0, 0, tzinfo=pytz.timezone('Europe/London'))
+    start_time = datetime(int(date_split[0]), int(date_split[1]), int(date_split[2]), 17, 0, 0, tzinfo=tz)
     if 'start' in rehearsal_meta:
         summary += ' NB START TIME'
         time_split = rehearsal_meta['start'].split(':')
@@ -71,16 +73,24 @@ for event_raw in events_raw:
             case _:
                 raise Exception('unknown group: ' + rehearsal_meta['group'])
 
-        date_start_split = event_raw['start_day'].split('-')
-        date_end_split   = event_raw['end_day'  ].split('-')
-
         event = Event()
-        event['uid']         = vText(event_raw['start_day'])
         event['summary']     = vText(('TBC ' if 'tbc' in event_raw else '') + group_name + ' @ ' + event_raw['name'])
         event['description'] = vText(event_raw['description'])
         event['location']    = vText(event_raw['location'])
-        event.add('dtstart', date(int(date_start_split[0]), int(date_start_split[1]), int(date_start_split[2])))
-        event.add('dtend',   date(int(date_end_split[0]),   int(date_end_split[1]),   int(date_end_split[2])) + timedelta(days=1))
+
+        if 'start_day' in event_raw and 'end_day' in event_raw:
+            event['uid']     = vText(event_raw['start_day'])
+            date_start_split = event_raw['start_day'].split('-')
+            date_end_split   = event_raw['end_day'  ].split('-')
+            event.add('dtstart', date(int(date_start_split[0]), int(date_start_split[1]), int(date_start_split[2])))
+            event.add('dtend',   date(int(date_end_split[0]),   int(date_end_split[1]),   int(date_end_split[2])) + timedelta(days=1))
+        elif 'start_time' in event_raw and 'end_time' in event_raw:
+            event['uid']     = vText(event_raw['start_time'])
+            event.add('dtstart', datetime.replace(datetime.fromisoformat(event_raw['start_time']), tzinfo=tz))
+            event.add('dtend',   datetime.replace(datetime.fromisoformat(event_raw['end_time']),   tzinfo=tz))
+        else:
+            raise Exception('date or time required')
+
         cal.add_component(event)
 
 with open('flash_company.cal', 'wb') as f:
