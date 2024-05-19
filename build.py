@@ -3,21 +3,40 @@ from datetime import datetime, date, timedelta
 import pytz
 import yaml
 
-cal = Calendar()
-cal['prodid']        = vText('-//DCT//DCT//EN')
-cal['version']       = vText('2.0')
-cal['name']          = vText('Flash Company Morris')
-cal['x-wr-calname']  = vText('Flash Company Morris')
-cal['x-wr-timezone'] = vText('Europe/London')
-cal['color']         = vText('gold')
+cals = {}
 
-with open('flash_company_rehearsals.yaml', 'r') as f:
+cals['flash'] = Calendar()
+cals['flash']['prodid']        = vText('-//DCT//DCT//EN')
+cals['flash']['version']       = vText('2.0')
+cals['flash']['name']          = vText('Flash Company Morris')
+cals['flash']['x-wr-calname']  = vText('Flash Company Morris')
+cals['flash']['x-wr-timezone'] = vText('Europe/London')
+
+cals['taps'] = Calendar()
+cals['taps']['prodid']        = vText('-//DCT//DCT//EN')
+cals['taps']['version']       = vText('2.0')
+cals['taps']['name']          = vText('Kitchen Taps Dance')
+cals['taps']['x-wr-calname']  = vText('Kitchen Taps Dance')
+cals['taps']['x-wr-timezone'] = vText('Europe/London')
+
+with open('rehearsals.yaml', 'r') as f:
     rehearsals_raw = yaml.load(f, Loader=yaml.Loader)
 
-for rehearsal_date, rehearsal_meta in rehearsals_raw.items():
-    summary  = 'Flash Co'
+for rehearsal_meta in rehearsals_raw:
+    match rehearsal_meta['group']:
+        case 'flash':
+            summary     = 'Flash Co'
+            description =  'Regular Flash Company rehearsal'
+            cal = cals['flash']
+        case 'taps':
+            summary     = 'Taps'
+            description =  'Regular Kitchen Taps rehearsal'
+            cal = cals['taps']
+        case _:
+            raise Exception('unknown group: ' + rehearsal_meta['group'])
+
     location = 'Clifton Village Hall, Otley, LS21 2ES, UK'
-    date_split = rehearsal_date.split('-')
+    date_split = rehearsal_meta['date'].split('-')
     start_time = datetime(int(date_split[0]), int(date_split[1]), int(date_split[2]), 17, 0, 0, tzinfo=pytz.timezone('Europe/London'))
     if 'start' in rehearsal_meta:
         summary += ' NB START TIME'
@@ -28,14 +47,13 @@ for rehearsal_date, rehearsal_meta in rehearsals_raw.items():
         summary += ' NB LOCATION'
 
     event = Event()
-    event['uid']         = vText(rehearsal_date)
+    event['uid']         = vText('rehearsal-' + rehearsal_meta['date'])
     event['summary']     = vText(summary)
-    event['description'] = vText('Regular Flash Company rehearsal')
+    event['description'] = vText(description)
 
     event.add('dtstart',  start_time)
     event.add('duration', vText('PT2H'))
     event['location']    = vText(location)
-    event['color']       = vText('gold')
     cal.add_component(event)
 
 with open('flash_company_events.yaml', 'r') as f:
@@ -52,10 +70,10 @@ for event_raw in events_raw:
     event['location']    = vText(event_raw['location'])
     event.add('dtstart', date(int(date_start_split[0]), int(date_start_split[1]), int(date_start_split[2])))
     event.add('dtend',   date(int(date_end_split[0]),   int(date_end_split[1]),   int(date_end_split[2])) + timedelta(days=1))
-    event['color']       = vText('gold')
-    cal.add_component(event)
+    cals['flash'].add_component(event)
 
 with open('flash_company.cal', 'wb') as f:
-    f.write(cal.to_ical())
+    f.write(cals['flash'].to_ical())
 
-
+with open('kitchen_taps.cal', 'wb') as f:
+    f.write(cals['taps'].to_ical())

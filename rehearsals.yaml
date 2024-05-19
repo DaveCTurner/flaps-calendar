@@ -1,0 +1,44 @@
+- group: flash
+  date: '2024-05-19'
+
+- group: taps
+  date: '2024-05-26'
+  start: '18:30'
+
+- group: flash
+  date: '2024-06-02'
+  start: '17:30'
+
+- group: taps
+  date: '2024-06-09'
+
+- group: flash
+  date: '2024-06-16'
+
+- group: taps
+  date: '2024-06-30'
+
+- group: flash
+  date: '2024-07-14'
+  start: '17:30'
+
+- group: taps
+  date: '2024-07-21'
+
+- group: flash
+  date: '2024-07-28'
+
+- group: taps
+  date: '2024-08-04'
+
+- group: flash
+  date: '2024-08-11'
+
+- group: taps
+  date: '2024-08-18'
+
+- group: flash
+  date: '2024-08-25'
+
+- group: taps
+  date: '2024-09-01'
