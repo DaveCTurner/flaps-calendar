@@ -15,8 +15,8 @@ cals['flash']['x-wr-timezone'] = vText('Europe/London')
 cals['taps'] = Calendar()
 cals['taps']['prodid']        = vText('-//DCT//DCT//EN')
 cals['taps']['version']       = vText('2.0')
-cals['taps']['name']          = vText('Kitchen Taps Dance')
-cals['taps']['x-wr-calname']  = vText('Kitchen Taps Dance')
+cals['taps']['name']          = vText('Kitchen Taps')
+cals['taps']['x-wr-calname']  = vText('Kitchen Taps')
 cals['taps']['x-wr-timezone'] = vText('Europe/London')
 
 with open('rehearsals.yaml', 'r') as f:

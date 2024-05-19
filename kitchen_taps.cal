@@ -1,8 +1,8 @@
 BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//DCT//DCT//EN
-NAME:Kitchen Taps Dance
-X-WR-CALNAME:Kitchen Taps Dance
+NAME:Kitchen Taps
+X-WR-CALNAME:Kitchen Taps
 X-WR-TIMEZONE:Europe/London
 BEGIN:VEVENT
 SUMMARY:Taps NB START TIME
