@@ -1,28 +1,33 @@
-- name: Scarborough
+- groups: [flash]
+  name: Scarborough
   description: Yorkshire Coast Morris Weekend 2024
   location: Scarborough, North Yorkshire, UK
   start_day: '2024-06-21'
   end_day:   '2024-06-23'
 
-- name: Saltburn
+- groups: [flash]
+  name: Saltburn
   description: Jet Set Border Morris Day Of Dance 2024
   location: Saltburn-by-the-Sea, North Yorkshire, UK
   start_day: '2024-06-29'
   end_day:   '2024-06-29'
 
-- name: Southwell
+- groups: [flash]
+  name: Southwell
   description: Gate to Southwell Festival 2024
   location: Gate to Southwell Festival, Eakring Lane, Kirklington, NG22 8NX, UK
   start_day: '2024-07-04'
   end_day:   '2024-07-07'
 
-- name: Lincoln
+- groups: [flash]
+  name: Lincoln
   description: Lincoln Day Of Dance 2024
   location: Lincoln, Lincolnshire, UK
   start_day: '2024-09-07'
   end_day:   '2024-09-07'
 
-- name: Otley Folk Festival
+- groups: [flash,taps]
+  name: Otley Folk Festival
   tbc: true
   description: Otley Folk Festival 2024
   location: Otley, West Yorkshire, UK

@@ -56,21 +56,32 @@ for rehearsal_meta in rehearsals_raw:
     event['location']    = vText(location)
     cal.add_component(event)
 
-with open('flash_company_events.yaml', 'r') as f:
+with open('events.yaml', 'r') as f:
     events_raw = yaml.load(f, Loader=yaml.Loader)
 
 for event_raw in events_raw:
-    date_start_split = event_raw['start_day'].split('-')
-    date_end_split   = event_raw['end_day'  ].split('-')
+    for group_name in event_raw['groups']:
+        match rehearsal_meta['group']:
+            case 'flash':
+                group_name  = 'Flash Co'
+                cal = cals['flash']
+            case 'taps':
+                group_name  = 'Taps'
+                cal = cals['taps']
+            case _:
+                raise Exception('unknown group: ' + rehearsal_meta['group'])
 
-    event = Event()
-    event['uid']         = vText(event_raw['start_day'])
-    event['summary']     = vText(('TBC ' if 'tbc' in event_raw else '') + 'Flash Co @ ' + event_raw['name'])
-    event['description'] = vText(event_raw['description'])
-    event['location']    = vText(event_raw['location'])
-    event.add('dtstart', date(int(date_start_split[0]), int(date_start_split[1]), int(date_start_split[2])))
-    event.add('dtend',   date(int(date_end_split[0]),   int(date_end_split[1]),   int(date_end_split[2])) + timedelta(days=1))
-    cals['flash'].add_component(event)
+        date_start_split = event_raw['start_day'].split('-')
+        date_end_split   = event_raw['end_day'  ].split('-')
+
+        event = Event()
+        event['uid']         = vText(event_raw['start_day'])
+        event['summary']     = vText(('TBC ' if 'tbc' in event_raw else '') + group_name + ' @ ' + event_raw['name'])
+        event['description'] = vText(event_raw['description'])
+        event['location']    = vText(event_raw['location'])
+        event.add('dtstart', date(int(date_start_split[0]), int(date_start_split[1]), int(date_start_split[2])))
+        event.add('dtend',   date(int(date_end_split[0]),   int(date_end_split[1]),   int(date_end_split[2])) + timedelta(days=1))
+        cal.add_component(event)
 
 with open('flash_company.cal', 'wb') as f:
     f.write(cals['flash'].to_ical())
