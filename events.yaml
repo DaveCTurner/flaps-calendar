@@ -20,6 +20,13 @@
   start_time: '2024-06-29T10:00'
   end_time:   '2024-06-29T16:00'
 
+- groups: [taps]
+  name: Saxton
+  description: Dancing at The Greyhound, Saxton
+  location: Greyhound Inn, Main St, Saxton, Tadcaster LS24 9PY
+  start_time: '2024-07-14T10:00'
+  end_time:   '2024-07-14T16:00'
+
 - groups: [flash]
   name: Southwell
   description: Gate to Southwell Festival 2024
@@ -31,8 +38,8 @@
   name: Lincoln
   description: Lincoln Day Of Dance 2024
   location: Lincoln, Lincolnshire, UK
-  start_day: '2024-09-07'
-  end_day:   '2024-09-07'
+  start_time: '2024-09-07T10:00'
+  end_time:   '2024-09-07T16:00'
 
 - groups: [flash,taps]
   name: Otley Folk Festival

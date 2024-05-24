@@ -37,12 +37,12 @@ DESCRIPTION:Regular Kitchen Taps rehearsal
 LOCATION:Clifton Village Hall\, Otley\, LS21 2ES\, UK
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Taps
+SUMMARY:Taps NB LOCATION
 DTSTART;TZID=Europe/London:20240804T170000
 DURATION:PT2H
 UID:rehearsal-2024-08-04
 DESCRIPTION:Regular Kitchen Taps rehearsal
-LOCATION:Clifton Village Hall\, Otley\, LS21 2ES\, UK
+LOCATION:Ashfield Primary School\, 111 Weston Lane\, Otley LS21 2DF
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Taps
@@ -75,6 +75,14 @@ DTEND;VALUE=DATE:20240624
 UID:2024-06-21
 DESCRIPTION:Yorkshire Coast Morris Weekend 2024
 LOCATION:Scarborough\, North Yorkshire\, UK
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Taps @ Saxton
+DTSTART;TZID=Europe/London:20240714T100000
+DTEND;TZID=Europe/London:20240714T160000
+UID:2024-07-14T10:00
+DESCRIPTION:Dancing at The Greyhound\, Saxton
+LOCATION:Greyhound Inn\, Main St\, Saxton\, Tadcaster LS24 9PY
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:TBC Taps @ Otley Folk Festival
