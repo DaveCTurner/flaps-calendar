@@ -24,8 +24,8 @@
   name: Saxton
   description: Dancing at The Greyhound, Saxton
   location: Greyhound Inn, Main St, Saxton, Tadcaster LS24 9PY
-  start_time: '2024-07-14T10:00'
-  end_time:   '2024-07-14T16:00'
+  start_time: '2024-07-17T20:00'
+  end_time:   '2024-07-17T22:00'
 
 - groups: [flash]
   name: Southwell
