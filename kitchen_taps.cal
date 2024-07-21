@@ -5,44 +5,12 @@ NAME:Kitchen Taps
 X-WR-CALNAME:Kitchen Taps
 X-WR-TIMEZONE:Europe/London
 BEGIN:VEVENT
-SUMMARY:Taps NB START TIME
-DTSTART;TZID=Europe/London:20240526T183000
-DURATION:PT2H
-UID:rehearsal-2024-05-26
-DESCRIPTION:Regular Kitchen Taps rehearsal
-LOCATION:Clifton Village Hall\, Otley\, LS21 2ES\, UK
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Taps
-DTSTART;TZID=Europe/London:20240609T170000
-DURATION:PT2H
-UID:rehearsal-2024-06-09
-DESCRIPTION:Regular Kitchen Taps rehearsal
-LOCATION:Clifton Village Hall\, Otley\, LS21 2ES\, UK
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Taps
-DTSTART;TZID=Europe/London:20240630T170000
-DURATION:PT2H
-UID:rehearsal-2024-06-30
-DESCRIPTION:Regular Kitchen Taps rehearsal
-LOCATION:Clifton Village Hall\, Otley\, LS21 2ES\, UK
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Taps
-DTSTART;TZID=Europe/London:20240721T170000
-DURATION:PT2H
-UID:rehearsal-2024-07-21
-DESCRIPTION:Regular Kitchen Taps rehearsal
-LOCATION:Clifton Village Hall\, Otley\, LS21 2ES\, UK
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Taps NB LOCATION
 DTSTART;TZID=Europe/London:20240804T170000
 DURATION:PT2H
 UID:rehearsal-2024-08-04
 DESCRIPTION:Regular Kitchen Taps rehearsal
-LOCATION:Ashfield Primary School\, 111 Weston Lane\, Otley LS21 2DF
+LOCATION:Tess & Daves\, 12 Rillsmead Otley LS21 3JD
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Taps
@@ -61,28 +29,60 @@ DESCRIPTION:Regular Kitchen Taps rehearsal
 LOCATION:Clifton Village Hall\, Otley\, LS21 2ES\, UK
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Taps @ Ilkley Bandstand
-DTSTART;TZID=Europe/London:20240620T193000
-DTEND;TZID=Europe/London:20240620T210000
-UID:2024-06-20T19:30
-DESCRIPTION:Buttercross Belles at Ilkley Bandstand 2024\n
-LOCATION:The Grove\, Ilkley\, LS29 9EG\, UK
+SUMMARY:Taps NB START TIME
+DTSTART;TZID=Europe/London:20240915T183000
+DURATION:PT2H
+UID:rehearsal-2024-09-15
+DESCRIPTION:Regular Kitchen Taps rehearsal
+LOCATION:Clifton Village Hall\, Otley\, LS21 2ES\, UK
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Taps @ Scarborough
-DTSTART;VALUE=DATE:20240621
-DTEND;VALUE=DATE:20240624
-UID:2024-06-21
-DESCRIPTION:Yorkshire Coast Morris Weekend 2024
-LOCATION:Scarborough\, North Yorkshire\, UK
+SUMMARY:Taps
+DTSTART;TZID=Europe/London:20241006T170000
+DURATION:PT2H
+UID:rehearsal-2024-10-06
+DESCRIPTION:Regular Kitchen Taps rehearsal
+LOCATION:Clifton Village Hall\, Otley\, LS21 2ES\, UK
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Taps @ Saxton
-DTSTART;TZID=Europe/London:20240717T200000
-DTEND;TZID=Europe/London:20240717T220000
-UID:2024-07-17T20:00
-DESCRIPTION:Dancing at The Greyhound\, Saxton
-LOCATION:Greyhound Inn\, Main St\, Saxton\, Tadcaster LS24 9PY
+SUMMARY:Taps
+DTSTART;TZID=Europe/London:20241020T170000
+DURATION:PT2H
+UID:rehearsal-2024-10-20
+DESCRIPTION:Regular Kitchen Taps rehearsal
+LOCATION:Clifton Village Hall\, Otley\, LS21 2ES\, UK
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Taps
+DTSTART;TZID=Europe/London:20241103T170000
+DURATION:PT2H
+UID:rehearsal-2024-11-03
+DESCRIPTION:Regular Kitchen Taps rehearsal
+LOCATION:Clifton Village Hall\, Otley\, LS21 2ES\, UK
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Taps
+DTSTART;TZID=Europe/London:20241117T170000
+DURATION:PT2H
+UID:rehearsal-2024-11-17
+DESCRIPTION:Regular Kitchen Taps rehearsal
+LOCATION:Clifton Village Hall\, Otley\, LS21 2ES\, UK
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Taps
+DTSTART;TZID=Europe/London:20241201T170000
+DURATION:PT2H
+UID:rehearsal-2024-12-01
+DESCRIPTION:Regular Kitchen Taps rehearsal
+LOCATION:Clifton Village Hall\, Otley\, LS21 2ES\, UK
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Taps
+DTSTART;TZID=Europe/London:20241215T170000
+DURATION:PT2H
+UID:rehearsal-2024-12-15
+DESCRIPTION:Regular Kitchen Taps rehearsal
+LOCATION:Clifton Village Hall\, Otley\, LS21 2ES\, UK
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:TBC Taps @ Otley Folk Festival

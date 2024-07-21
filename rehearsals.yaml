@@ -1,33 +1,9 @@
-- group: taps
-  date: '2024-05-26'
-  start: '18:30'
-
-- group: flash
-  date: '2024-06-02'
-  start: '17:30'
-
-- group: taps
-  date: '2024-06-09'
-
-- group: flash
-  date: '2024-06-16'
-
-- group: taps
-  date: '2024-06-30'
-
-- group: flash
-  date: '2024-07-14'
-  start: '17:30'
-
-- group: taps
-  date: '2024-07-21'
-
 - group: flash
   date: '2024-07-28'
 
 - group: taps
   date: '2024-08-04'
-  location: 'Ashfield Primary School, 111 Weston Lane, Otley LS21 2DF'
+  location: 'Tess & Daves, 12 Rillsmead Otley LS21 3JD'
 
 - group: flash
   date: '2024-08-11'
@@ -35,8 +11,53 @@
 - group: taps
   date: '2024-08-18'
 
-- group: flash
-  date: '2024-08-25'
-
 - group: taps
   date: '2024-09-01'
+
+- group: flash
+  date: '2024-09-08'
+
+- group: taps
+  date: '2024-09-15'
+  start: '18:30'
+
+- group: flash
+  date: '2024-09-29'
+
+- group: taps
+  date: '2024-10-06'
+
+- group: flash
+  date: '2024-10-13'
+  start: '18:30'
+
+- group: taps
+  date: '2024-10-20'
+
+- group: flash
+  date: '2024-10-27'
+
+- group: taps
+  date: '2024-11-03'
+
+- group: flash
+  date: '2024-11-10'
+
+- group: taps
+  date: '2024-11-17'
+
+- group: flash
+  date: '2024-11-24'
+
+- group: taps
+  date: '2024-12-01'
+
+- group: flash
+  date: '2024-12-08'
+
+- group: taps
+  date: '2024-12-15'
+
+- group: flash
+  date: '2024-12-22'
+
