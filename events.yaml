@@ -1,10 +1,3 @@
-- groups: [flash]
-  name: Lincoln
-  description: Lincoln Day Of Dance 2024
-  location: Lincoln, Lincolnshire, UK
-  start_time: '2024-09-07T10:00'
-  end_time:   '2024-09-07T16:00'
-
 - groups: [flash,taps]
   name: Otley Folk Festival
   tbc: true
