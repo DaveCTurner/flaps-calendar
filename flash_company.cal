@@ -97,23 +97,23 @@ SUMMARY:Flash Co @ Otley Folk Festival
 DTSTART;TZID=Europe/London:20240922T110000
 DTEND;TZID=Europe/London:20240922T114000
 UID:2024-09-22T11:00
-DESCRIPTION:Otley Folk Festival 2024
-LOCATION:Riverside spot 1\, W854+M24 Otley\, West Yorkshire\, UK
+DESCRIPTION:Riverside spot 1 @ Otley Folk Festival 2024
+LOCATION:W854+M24 Otley
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Flash Co @ Otley Folk Festival
 DTSTART;TZID=Europe/London:20240922T114000
 DTEND;TZID=Europe/London:20240922T130000
 UID:2024-09-22T11:40
-DESCRIPTION:Otley Folk Festival 2024
-LOCATION:Newmarket\, W834+MQM Otley\, West Yorkshire\, UK
+DESCRIPTION:Newmarket @ Otley Folk Festival 2024
+LOCATION:W834+MQM Otley
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Flash Co @ Otley Folk Festival
 DTSTART;TZID=Europe/London:20240922T134000
 DTEND;TZID=Europe/London:20240922T150000
 UID:2024-09-22T13:40
-DESCRIPTION:Otley Folk Festival 2024
-LOCATION:Three Horseshoes\, W844+QP3 Otley\, West Yorkshire\, UK
+DESCRIPTION:Three Horseshoes @ Otley Folk Festival 2024
+LOCATION:W844+QP3 Otley
 END:VEVENT
 END:VCALENDAR
