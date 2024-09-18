@@ -8,21 +8,21 @@
 
 - groups: [flash]
   name: Otley Folk Festival
-  description: Riverside spot 1 @ Otley Folk Festival 2024
+  description: Riverside spot 1, Otley Folk Festival 2024
   location: W854+M24 Otley
   start_time: '2024-09-22T11:00'
   end_time: '2024-09-22T11:40'
 
 - groups: [flash]
   name: Otley Folk Festival
-  description: Newmarket @ Otley Folk Festival 2024
+  description: Newmarket, Otley Folk Festival 2024
   location: W834+MQM Otley
   start_time: '2024-09-22T11:40'
   end_time: '2024-09-22T13:00'
 
 - groups: [flash]
   name: Otley Folk Festival
-  description: Three Horseshoes @ Otley Folk Festival 2024
+  description: Three Horseshoes, Otley Folk Festival 2024
   location: W844+QP3 Otley
   start_time: '2024-09-22T13:40'
   end_time: '2024-09-22T15:00'
