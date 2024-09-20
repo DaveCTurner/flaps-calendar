@@ -1,11 +1,3 @@
-- groups: [flash,taps]
-  name: Otley Folk Festival
-  tbc: true
-  description: Otley Folk Festival 2024
-  location: Otley, West Yorkshire, UK
-  start_day: '2024-09-21'
-  end_day:   '2024-09-22'
-
 - groups: [flash]
   name: Otley Folk Festival
   description: Riverside spot 1, Otley Folk Festival 2024
