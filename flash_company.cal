@@ -77,12 +77,12 @@ DESCRIPTION:Regular Flash Company rehearsal
 LOCATION:Clifton Village Hall\, Otley\, LS21 2ES\, UK
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Flash Co
+SUMMARY:Flash Co NB LOCATION
 DTSTART;TZID=Europe/London:20241222T170000
 DURATION:PT2H
 UID:rehearsal-2024-12-22
 DESCRIPTION:Regular Flash Company rehearsal
-LOCATION:Clifton Village Hall\, Otley\, LS21 2ES\, UK
+LOCATION:TBC Clifton Hall not available
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Flash Co @ Otley Folk Festival

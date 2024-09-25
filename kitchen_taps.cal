@@ -53,12 +53,12 @@ DESCRIPTION:Regular Kitchen Taps rehearsal
 LOCATION:Clifton Village Hall\, Otley\, LS21 2ES\, UK
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Taps
+SUMMARY:Taps NB LOCATION
 DTSTART;TZID=Europe/London:20241103T170000
 DURATION:PT2H
 UID:rehearsal-2024-11-03
 DESCRIPTION:Regular Kitchen Taps rehearsal
-LOCATION:Clifton Village Hall\, Otley\, LS21 2ES\, UK
+LOCATION:Methodist Hall\, Walkergate\, Otley LS21 1AG
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Taps
