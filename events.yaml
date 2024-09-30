@@ -8,7 +8,7 @@
   who:
     Dave: yes
     Tess: [yes,band]
-    Jude: null
+    Jude: yes
     Janet: yes
     Phil H: yes
     Jaci: yes
@@ -19,6 +19,29 @@
     Snozz: band
     Nicky: null
     Phil S: band
+    Carole: null
+
+- groups: [flash]
+  name: Ossett Beercart Festival
+  description: Ossett Beercart Festival
+  location: Ossett, West Yorkshire, UK
+  start_day: '2025-05-31'
+  end_day: '2025-06-01'
+  tbc: true
+  who:
+    Dave: yes
+    Tess: [yes,band]
+    Jude: Ask later
+    Janet: Saturday only
+    Phil H: no
+    Jaci: null
+    Ruby: null
+    Gemma: Saturday only
+    Lizzy: Saturday only
+    Ruth: null
+    Snozz: null
+    Nicky: null
+    Phil S: [band,Saturday only]
     Carole: null
 
 - groups: [flash]

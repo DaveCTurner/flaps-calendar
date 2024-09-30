@@ -66,9 +66,20 @@ DTSTART;TZID=Europe/London:20241201T100000
 DTEND;TZID=Europe/London:20241201T170000
 UID:2024-12-01T10:00
 DESCRIPTION:Otley Victorian Fayre\nBand: (4) Gemma\, Phil S\, Snozz\, Tess
- \nNo response: (4) Carole\, Jude\, Nicky\, Ruby\nYes: (8) Dave\, Gemma\, J
- aci\, Janet\, Lizzy\, Phil H\, Ruth\, Tess\n
+ \nNo response: (3) Carole\, Nicky\, Ruby\nYes: (9) Dave\, Gemma\, Jaci\, J
+ anet\, Jude\, Lizzy\, Phil H\, Ruth\, Tess\n
 LOCATION:Otley\, West Yorkshire\, UK
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:TBC Flash Co @ Ossett Beercart Festival
+DTSTART;VALUE=DATE:20250531
+DTEND;VALUE=DATE:20250602
+UID:2025-05-31
+DESCRIPTION:Ossett Beercart Festival\nAsk later: (1) Jude\nBand: (2) Phil 
+ S\, Tess\nNo: (1) Phil H\nNo response: (6) Carole\, Jaci\, Nicky\, Ruby\, 
+ Ruth\, Snozz\nSaturday only: (4) Gemma\, Janet\, Lizzy\, Phil S\nYes: (2) 
+ Dave\, Tess\n
+LOCATION:Ossett\, West Yorkshire\, UK
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:TBC Flash Co @ Saltburn Festival
