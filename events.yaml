@@ -5,6 +5,20 @@
   start_time: '2024-12-01T10:00'
   end_time: '2024-12-01T17:00'
   tbc: true
+  who:
+    Dave: yes
+    Tess: yes
+    Jude: null
+    Janet: yes
+    Phil H: yes
+    Jaci: yes
+    Gemma: yes
+    Lizzy: yes
+    Ruth: yes
+    Snozz: yes
+    Nicky: null
+    Phil S: yes
+    Carole: null
 
 - groups: [flash]
   name: Saltburn Festival
@@ -13,3 +27,17 @@
   start_day: '2025-08-09'
   end_day: '2025-08-10'
   tbc: true
+  who:
+    Dave: yes
+    Tess: yes
+    Jude: Ask later
+    Janet: yes
+    Phil H: yes
+    Jaci: yes
+    Gemma: Saturday only
+    Lizzy: Saturday only
+    Ruth: yes
+    Snozz: yes
+    Nicky: null
+    Phil S: yes
+    Carole: no

@@ -65,7 +65,9 @@ SUMMARY:TBC Flash Co @ Otley Victorian Fayre
 DTSTART;TZID=Europe/London:20241201T100000
 DTEND;TZID=Europe/London:20241201T170000
 UID:2024-12-01T10:00
-DESCRIPTION:Otley Victorian Fayre
+DESCRIPTION:Otley Victorian Fayre\nNo response: (3) Carole\, Jude\, Nicky\
+ nYes: (10) Dave\, Gemma\, Jaci\, Janet\, Lizzy\, Phil H\, Phil S\, Ruth\, 
+ Snozz\, Tess\n
 LOCATION:Otley\, West Yorkshire\, UK
 END:VEVENT
 BEGIN:VEVENT
@@ -73,7 +75,9 @@ SUMMARY:TBC Flash Co @ Saltburn Festival
 DTSTART;VALUE=DATE:20250809
 DTEND;VALUE=DATE:20250811
 UID:2025-08-09
-DESCRIPTION:Saltburn Festival
+DESCRIPTION:Saltburn Festival\nAsk later: (1) Jude\nNo: (1) Carole\nNo res
+ ponse: (1) Nicky\nSaturday only: (2) Gemma\, Lizzy\nYes: (8) Dave\, Jaci\,
+  Janet\, Phil H\, Phil S\, Ruth\, Snozz\, Tess\n
 LOCATION:Saltburn-by-the-Sea\, UK
 END:VEVENT
 END:VCALENDAR

@@ -75,8 +75,28 @@ for event_raw in events_raw:
 
         event = Event()
         event['summary']     = vText(('TBC ' if 'tbc' in event_raw else '') + group_name + ' @ ' + event_raw['name'])
-        event['description'] = vText(event_raw['description'])
         event['location']    = vText(event_raw['location'])
+
+        description = event_raw['description'] + '\n'
+        responses = {}
+        for name, response_raw in event_raw['who'].items():
+            match response_raw:
+                case None:
+                    response = 'No response'
+                case True:
+                    response = 'Yes'
+                case False:
+                    response = 'No'
+                case _:
+                    response = str(response_raw)
+            if response not in responses:
+                responses[response] = []
+            responses[response].append(name)
+
+        for response, names in sorted(responses.items()):
+            description = description + response + ': (' + str(len(names)) + ') ' + ', '.join(sorted(names)) + '\n'
+
+        event['description'] = vText(description)
 
         if 'start_day' in event_raw and 'end_day' in event_raw:
             event['uid']     = vText(event_raw['start_day'])
