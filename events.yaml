@@ -7,17 +7,17 @@
   tbc: true
   who:
     Dave: yes
-    Tess: yes
+    Tess: [yes,band]
     Jude: null
     Janet: yes
     Phil H: yes
     Jaci: yes
-    Gemma: yes
+    Gemma: [yes,band]
     Lizzy: yes
     Ruth: yes
-    Snozz: yes
+    Snozz: band
     Nicky: null
-    Phil S: yes
+    Phil S: band
     Carole: null
 
 - groups: [flash]
@@ -29,7 +29,7 @@
   tbc: true
   who:
     Dave: yes
-    Tess: yes
+    Tess: [yes,band]
     Jude: Ask later
     Janet: yes
     Phil H: yes
@@ -37,7 +37,7 @@
     Gemma: Saturday only
     Lizzy: Saturday only
     Ruth: yes
-    Snozz: yes
+    Snozz: band
     Nicky: null
-    Phil S: yes
+    Phil S: band
     Carole: no

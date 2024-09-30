@@ -78,23 +78,26 @@ for event_raw in events_raw:
         event['location']    = vText(event_raw['location'])
 
         description = event_raw['description'] + '\n'
-        responses = {}
-        for name, response_raw in event_raw['who'].items():
-            match response_raw:
-                case None:
-                    response = 'No response'
-                case True:
-                    response = 'Yes'
-                case False:
-                    response = 'No'
-                case _:
-                    response = str(response_raw)
-            if response not in responses:
-                responses[response] = []
-            responses[response].append(name)
 
-        for response, names in sorted(responses.items()):
-            description = description + response + ': (' + str(len(names)) + ') ' + ', '.join(sorted(names)) + '\n'
+        if 'who' in event_raw:
+            responses = {}
+            for name, responses_raw in event_raw['who'].items():
+                for response_raw in responses_raw if type(responses_raw) is list else [responses_raw]:
+                    match response_raw:
+                        case None:
+                            response = 'No response'
+                        case True:
+                            response = 'Yes'
+                        case False:
+                            response = 'No'
+                        case _:
+                            response = response_raw.capitalize()
+                    if response not in responses:
+                        responses[response] = []
+                    responses[response].append(name)
+
+            for response, names in sorted(responses.items()):
+                description = description + response + ': (' + str(len(names)) + ') ' + ', '.join(sorted(names)) + '\n'
 
         event['description'] = vText(description)
 
