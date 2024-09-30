@@ -76,8 +76,8 @@ DTSTART;VALUE=DATE:20250809
 DTEND;VALUE=DATE:20250811
 UID:2025-08-09
 DESCRIPTION:Saltburn Festival\nAsk later: (1) Jude\nBand: (3) Phil S\, Sno
- zz\, Tess\nNo: (1) Carole\nNo response: (1) Nicky\nSaturday only: (2) Gemm
- a\, Lizzy\nYes: (6) Dave\, Jaci\, Janet\, Phil H\, Ruth\, Tess\n
+ zz\, Tess\nNo: (1) Carole\nNo response: (1) Nicky\nSunday only: (2) Gemma\
+ , Lizzy\nYes: (6) Dave\, Jaci\, Janet\, Phil H\, Ruth\, Tess\n
 LOCATION:Saltburn-by-the-Sea\, UK
 END:VEVENT
 END:VCALENDAR
