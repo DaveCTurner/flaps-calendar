@@ -45,6 +45,29 @@
     Carole: null
 
 - groups: [flash]
+  name: Ripon
+  description: 400 Roses 20th Anniversary Day of Dance
+  location: Ripon, North Yorkshire, UK
+  start_time: 2025-06-07T10:00
+  end_time: 2025-06-07T16:00
+  tbc: true
+  who:
+    Dave: yes
+    Tess: [yes,band]
+    Jude: Ask later
+    Janet: null
+    Phil H: null
+    Jaci: null
+    Ruby: null
+    Gemma: null
+    Lizzy: null
+    Ruth: null
+    Snozz: null
+    Nicky: null
+    Phil S: null
+    Carole: null
+
+- groups: [flash]
   name: Saltburn Festival
   description: Saltburn Festival
   location: Saltburn-by-the-Sea, UK
