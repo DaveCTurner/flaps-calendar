@@ -92,6 +92,16 @@ DESCRIPTION:400 Roses 20th Anniversary Day of Dance\nAsk later: (1) Jude\n
 LOCATION:Ripon\, North Yorkshire\, UK
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:TBC Flash Co @ Doncaster
+DTSTART;TZID=Europe/London:20250412T100000
+DTEND;TZID=Europe/London:20250412T160000
+UID:2025-04-12T10:00
+DESCRIPTION:Doncaster Day Of Dance\nAsk later: (1) Jude\nBand: (2) Phil S\
+ , Tess\nNo response: (5) Carole\, Jaci\, Nicky\, Ruby\, Snozz\nYes: (8) Da
+ ve\, Gemma\, Janet\, Lizzy\, Phil H\, Phil S\, Ruth\, Tess\n
+LOCATION:Doncaster\, South Yorkshire\, UK
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:TBC Flash Co @ Saltburn Festival
 DTSTART;VALUE=DATE:20250809
 DTEND;VALUE=DATE:20250811

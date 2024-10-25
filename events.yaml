@@ -68,6 +68,29 @@
     Carole: null
 
 - groups: [flash]
+  name: Doncaster
+  description: Doncaster Day Of Dance
+  location: Doncaster, South Yorkshire, UK
+  start_time: 2025-04-12T10:00
+  end_time: 2025-04-12T16:00
+  tbc: true
+  who:
+    Dave: yes
+    Tess: [yes,band]
+    Jude: Ask later
+    Janet: yes
+    Phil H: yes
+    Jaci: null
+    Ruby: null
+    Gemma: yes
+    Lizzy: yes
+    Ruth: yes
+    Snozz: null
+    Nicky: null
+    Phil S: [yes,band]
+    Carole: null
+
+- groups: [flash]
   name: Saltburn Festival
   description: Saltburn Festival
   location: Saltburn-by-the-Sea, UK
