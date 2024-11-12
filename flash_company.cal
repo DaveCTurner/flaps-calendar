@@ -111,4 +111,14 @@ DESCRIPTION:Saltburn Festival\nAsk later: (1) Jude\nBand: (3) Phil S\, Sno
   Gemma\, Lizzy\nYes: (6) Dave\, Jaci\, Janet\, Phil H\, Ruth\, Tess\n
 LOCATION:Saltburn-by-the-Sea\, UK
 END:VEVENT
+BEGIN:VEVENT
+SUMMARY:TBC Flash Co @ Gate to Southwell Festival
+DTSTART;VALUE=DATE:20250703
+DTEND;VALUE=DATE:20250707
+UID:2025-07-03
+DESCRIPTION:Gate to Southwell Festival\nNo response: (14) Carole\, Dave\, 
+ Gemma\, Jaci\, Janet\, Jude\, Lizzy\, Nicky\, Phil H\, Phil S\, Ruby\, Rut
+ h\, Snozz\, Tess\n
+LOCATION:Kirklington\, Nottinghamshire\, UK
+END:VEVENT
 END:VCALENDAR

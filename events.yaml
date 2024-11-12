@@ -112,3 +112,26 @@
     Nicky: null
     Phil S: band
     Carole: no
+
+- groups: [flash]
+  name: Gate to Southwell Festival
+  description: Gate to Southwell Festival
+  location: Kirklington, Nottinghamshire, UK
+  start_day: '2025-07-03'
+  end_day: '2025-07-06'
+  tbc: true
+  who:
+    Dave: null
+    Tess: null
+    Jude: null
+    Janet: null
+    Phil H: null
+    Jaci: null
+    Ruby: null
+    Gemma: null
+    Lizzy: null
+    Ruth: null
+    Snozz: null
+    Nicky: null
+    Phil S: null
+    Carole: null
