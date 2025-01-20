@@ -1,42 +1,147 @@
 - group: flash
-  date: '2024-09-29'
+  date: '2025-01-26'
 
 - group: taps
-  date: '2024-10-06'
+  date: '2025-02-02'
 
 - group: flash
-  date: '2024-10-13'
-  start: '18:30'
+  date: '2025-02-09'
 
 - group: taps
-  date: '2024-10-20'
+  date: '2025-02-16'
 
 - group: flash
-  date: '2024-10-27'
+  date: '2025-02-23'
 
 - group: taps
-  date: '2024-11-03'
-  location: 'Methodist Hall, Walkergate, Otley LS21 1AG'
+  date: '2025-03-02'
 
 - group: flash
-  date: '2024-11-10'
+  date: '2025-03-09'
 
 - group: taps
-  date: '2024-11-17'
+  date: '2025-03-16'
 
 - group: flash
-  date: '2024-11-24'
+  date: '2025-03-23'
 
 - group: taps
-  date: '2024-12-01'
+  date: '2025-03-30'
 
 - group: flash
-  date: '2024-12-08'
+  date: '2025-04-06'
 
 - group: taps
-  date: '2024-12-15'
+  date: '2025-04-13'
 
 - group: flash
-  date: '2024-12-22'
-  location: 'TBC Clifton Hall not available'
+  date: '2025-04-20'
+
+- group: taps
+  date: '2025-04-27'
+
+- group: flash
+  date: '2025-05-04'
+
+- group: taps
+  date: '2025-05-11'
+
+- group: flash
+  date: '2025-05-18'
+
+- group: taps
+  date: '2025-05-25'
+
+- group: flash
+  date: '2025-06-01'
+
+- group: taps
+  date: '2025-06-08'
+
+- group: flash
+  date: '2025-06-15'
+
+- group: taps
+  date: '2025-06-22'
+
+- group: flash
+  date: '2025-06-29'
+
+- group: taps
+  date: '2025-07-06'
+
+- group: flash
+  date: '2025-07-13'
+
+- group: taps
+  date: '2025-07-20'
+
+- group: flash
+  date: '2025-07-27'
+
+- group: taps
+  date: '2025-08-03'
+
+- group: flash
+  date: '2025-08-10'
+
+- group: taps
+  date: '2025-08-17'
+
+- group: flash
+  date: '2025-08-24'
+
+- group: taps
+  date: '2025-08-31'
+
+- group: flash
+  date: '2025-09-07'
+
+- group: taps
+  date: '2025-09-14'
+
+- group: flash
+  date: '2025-09-21'
+
+- group: taps
+  date: '2025-09-28'
+
+- group: flash
+  date: '2025-10-05'
+
+- group: taps
+  date: '2025-10-12'
+
+- group: flash
+  date: '2025-10-19'
+
+- group: taps
+  date: '2025-10-26'
+
+- group: flash
+  date: '2025-11-02'
+
+- group: taps
+  date: '2025-11-09'
+
+- group: flash
+  date: '2025-11-16'
+
+- group: taps
+  date: '2025-11-23'
+
+- group: flash
+  date: '2025-11-30'
+
+- group: taps
+  date: '2025-12-07'
+
+- group: flash
+  date: '2025-12-14'
+
+- group: taps
+  date: '2025-12-21'
+
+- group: flash
+  date: '2025-12-28'
 
