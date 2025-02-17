@@ -1,22 +1,10 @@
 - group: flash
-  date: '2025-01-26'
-
-- group: taps
-  date: '2025-02-02'
-
-- group: flash
-  date: '2025-02-09'
-
-- group: taps
-  date: '2025-02-16'
-
-- group: flash
   date: '2025-02-23'
 
-- group: taps
+- group: flash
   date: '2025-03-02'
 
-- group: flash
+- group: taps
   date: '2025-03-09'
 
 - group: taps
@@ -24,6 +12,7 @@
 
 - group: flash
   date: '2025-03-23'
+  location: Black Horse Hotel, 2 Westgate, Otley LS21 3AS
 
 - group: taps
   date: '2025-03-30'
@@ -34,114 +23,111 @@
 - group: taps
   date: '2025-04-13'
 
-- group: flash
+- group: taps
   date: '2025-04-20'
 
-- group: taps
+- group: flash
   date: '2025-04-27'
 
 - group: flash
-  date: '2025-05-04'
-
-- group: taps
   date: '2025-05-11'
 
-- group: flash
+- group: taps
   date: '2025-05-18'
 
-- group: taps
+- group: flash
   date: '2025-05-25'
 
-- group: flash
+- group: taps
   date: '2025-06-01'
 
-- group: taps
+- group: flash
   date: '2025-06-08'
 
-- group: flash
+- group: taps
   date: '2025-06-15'
 
-- group: taps
+- group: flash
   date: '2025-06-22'
 
-- group: flash
+- group: taps
   date: '2025-06-29'
 
-- group: taps
+- group: flash
   date: '2025-07-06'
 
-- group: flash
+- group: taps
   date: '2025-07-13'
 
-- group: taps
+- group: flash
   date: '2025-07-20'
 
-- group: flash
+- group: taps
   date: '2025-07-27'
 
-- group: taps
+- group: flash
   date: '2025-08-03'
 
-- group: flash
+- group: taps
   date: '2025-08-10'
 
-- group: taps
+- group: flash
   date: '2025-08-17'
 
-- group: flash
+- group: taps
   date: '2025-08-24'
 
-- group: taps
+- group: flash
   date: '2025-08-31'
 
-- group: flash
+- group: taps
   date: '2025-09-07'
 
-- group: taps
+- group: flash
   date: '2025-09-14'
 
-- group: flash
+- group: taps
   date: '2025-09-21'
 
-- group: taps
+- group: flash
   date: '2025-09-28'
 
-- group: flash
+- group: taps
   date: '2025-10-05'
 
-- group: taps
+- group: flash
   date: '2025-10-12'
 
-- group: flash
+- group: taps
   date: '2025-10-19'
 
-- group: taps
+- group: flash
   date: '2025-10-26'
 
-- group: flash
+- group: taps
   date: '2025-11-02'
 
-- group: taps
+- group: flash
   date: '2025-11-09'
 
-- group: flash
+- group: taps
   date: '2025-11-16'
 
-- group: taps
+- group: flash
   date: '2025-11-23'
 
-- group: flash
+- group: taps
   date: '2025-11-30'
 
-- group: taps
+- group: flash
   date: '2025-12-07'
 
-- group: flash
+- group: taps
   date: '2025-12-14'
 
-- group: taps
+- group: flash
   date: '2025-12-21'
 
-- group: flash
+- group: taps
   date: '2025-12-28'
 
