@@ -46,8 +46,8 @@
   name: Ossett Beercart Festival
   description: Ossett Beercart Festival
   location: Ossett, West Yorkshire, UK
-  start_day: '2025-05-31'
-  end_day: '2025-06-01'
+  start_time: 2025-05-31T10:00
+  end_time: 2025-05-31T16:00
   tbc: true
   who:
     Dave: yes

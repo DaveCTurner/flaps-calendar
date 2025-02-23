@@ -210,9 +210,9 @@ LOCATION:Richmond\, North Yorkshire\, UK
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:TBC Flash Co @ Ossett Beercart Festival
-DTSTART;VALUE=DATE:20250531
-DTEND;VALUE=DATE:20250602
-UID:2025-05-31
+DTSTART;TZID=Europe/London:20250531T100000
+DTEND;TZID=Europe/London:20250531T160000
+UID:2025-05-31T10:00
 DESCRIPTION:Ossett Beercart Festival\nAsk later: (1) Jude\nBand: (2) Phil 
  S\, Tess\nNo: (1) Phil H\nNo response: (5) Carole\, Nicky\, Ruby\, Ruth\, 
  Snozz\nSaturday only: (4) Gemma\, Janet\, Lizzy\, Phil S\nYes: (2) Dave\, 
