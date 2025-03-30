@@ -39,7 +39,7 @@ for rehearsal_meta in rehearsals_raw:
 
     location = 'Clifton Village Hall, Otley, LS21 2ES, UK'
     date_split = rehearsal_meta['date'].split('-')
-    start_time = datetime(int(date_split[0]), int(date_split[1]), int(date_split[2]), 17, 0, 0, tzinfo=tz)
+    start_time = datetime(int(date_split[0]), int(date_split[1]), int(date_split[2]), 18, 0, 0, tzinfo=tz)
     if 'start' in rehearsal_meta:
         summary += ' NB START TIME'
         time_split = rehearsal_meta['start'].split(':')
