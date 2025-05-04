@@ -1,46 +1,10 @@
 - groups: [flash]
-  name: Darlington
-  description: Darlington Day Of Dance
-  location: Darlington, County Durham, UK
-  start_time: 2025-04-12T10:00
-  end_time: 2025-04-12T16:00
-  tbc: true
-  who:
-    Dave: yes
-    Tess: [yes,band]
-    Jude: Ask later
-    Janet: yes
-    Phil H: yes
-    Ruby: null
-    Gemma: yes
-    Lizzy: yes
-    Ruth: yes
-    Snozz: null
-    Nicky: null
-    Phil S: [yes,band]
-    Carole: null
-
-- groups: [flash]
-  name: Chorley
-  description: Amounderness Ladies' Day Of Dance
-  location: Chorley, Lancashire, UK
-  start_time: 2025-04-26T10:00
-  end_time: 2025-04-26T16:00
-  tbc: true
-  who:
-    Dave: yes
-    Tess: [yes,band]
-
-- groups: [flash]
   name: Richmond
-  description: Richmond on Swale Morris Men's Day of Dance - Sunday May 4th
+  description: Richmond on Swale Morris Men's Day of Dance
   location: Richmond, North Yorkshire, UK
   start_time: 2025-05-04T10:00
   end_time: 2025-05-04T16:00
-  tbc: true
-  who:
-    Dave: yes
-    Tess: [yes,band]
+  who: {}
 
 - groups: [flash]
   name: Ossett Beercart Festival
@@ -48,43 +12,7 @@
   location: Ossett, West Yorkshire, UK
   start_time: 2025-05-31T10:00
   end_time: 2025-05-31T16:00
-  tbc: true
-  who:
-    Dave: yes
-    Tess: [yes,band]
-    Jude: Ask later
-    Janet: Saturday only
-    Phil H: no
-    Ruby: null
-    Gemma: Saturday only
-    Lizzy: Saturday only
-    Ruth: null
-    Snozz: null
-    Nicky: null
-    Phil S: [band,Saturday only]
-    Carole: null
-
-- groups: [flash]
-  name: Ripon
-  description: 400 Roses 20th Anniversary Day of Dance
-  location: Ripon, North Yorkshire, UK
-  start_time: 2025-06-07T10:00
-  end_time: 2025-06-07T16:00
-  tbc: true
-  who:
-    Dave: yes
-    Tess: [yes,band]
-    Jude: Ask later
-    Janet: null
-    Phil H: null
-    Ruby: null
-    Gemma: null
-    Lizzy: null
-    Ruth: null
-    Snozz: null
-    Nicky: null
-    Phil S: null
-    Carole: null
+  who: {}
 
 - groups: [flash]
   name: Southwell
@@ -92,31 +20,16 @@
   location: Kirklington, Nottinghamshire, UK
   start_day: '2025-07-03'
   end_day: '2025-07-06'
-  who:
-    Dave: null
-    Tess: null
-    Jude: null
-    Janet: null
-    Phil H: null
-    Ruby: null
-    Gemma: null
-    Lizzy: null
-    Ruth: null
-    Snozz: null
-    Nicky: null
-    Phil S: null
-    Carole: null
+  who: {}
 
 - groups: [flash]
   name: Scarborough
-  description: Yorkshire Coast Morris W/E Scarborough - 11-13th July
+  description: Yorkshire Coast Morris W/E Scarborough
   location: Scarborough, North Yorkshire, UK
   start_day: '2025-07-11'
   end_day: '2025-07-13'
   tbc: true
-  who:
-    Dave: yes
-    Tess: [yes,band]
+  who: {}
 
 - groups: [flash]
   name: Saltburn Festival
@@ -124,17 +37,13 @@
   location: Saltburn-by-the-Sea, UK
   start_day: '2025-08-09'
   end_day: '2025-08-10'
-  who:
-    Dave: yes
-    Tess: [yes,band]
-    Jude: Ask later
-    Janet: yes
-    Phil H: yes
-    Ruby: null
-    Gemma: Sunday only
-    Lizzy: Sunday only
-    Ruth: yes
-    Snozz: band
-    Nicky: null
-    Phil S: band
-    Carole: no
+  who: {}
+
+- groups: [flash]
+  name: Lincoln
+  description: Lincoln Day of Dance
+  location: Lincoln, UK
+  start_time: 2025-09-06T10:00
+  end_time: 2025-09-06T16:00
+  tbc: true
+  who: {}

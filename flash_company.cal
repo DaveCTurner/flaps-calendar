@@ -157,62 +157,27 @@ DESCRIPTION:Regular Flash Company rehearsal
 LOCATION:Clifton Village Hall\, Otley\, LS21 2ES\, UK
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:TBC Flash Co @ Darlington
-DTSTART;TZID=Europe/London:20250412T100000
-DTEND;TZID=Europe/London:20250412T160000
-UID:2025-04-12T10:00
-DESCRIPTION:Darlington Day Of Dance\nAsk later: (1) Jude\nBand: (2) Phil S
- \, Tess\nNo response: (4) Carole\, Nicky\, Ruby\, Snozz\nYes: (8) Dave\, G
- emma\, Janet\, Lizzy\, Phil H\, Phil S\, Ruth\, Tess\n
-LOCATION:Darlington\, County Durham\, UK
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:TBC Flash Co @ Chorley
-DTSTART;TZID=Europe/London:20250426T100000
-DTEND;TZID=Europe/London:20250426T160000
-UID:2025-04-26T10:00
-DESCRIPTION:Amounderness Ladies' Day Of Dance\nBand: (1) Tess\nYes: (2) Da
- ve\, Tess\n
-LOCATION:Chorley\, Lancashire\, UK
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:TBC Flash Co @ Richmond
+SUMMARY:Flash Co @ Richmond
 DTSTART;TZID=Europe/London:20250504T100000
 DTEND;TZID=Europe/London:20250504T160000
 UID:2025-05-04T10:00
-DESCRIPTION:Richmond on Swale Morris Men's Day of Dance - Sunday May 4th\n
- Band: (1) Tess\nYes: (2) Dave\, Tess\n
+DESCRIPTION:Richmond on Swale Morris Men's Day of Dance\n
 LOCATION:Richmond\, North Yorkshire\, UK
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:TBC Flash Co @ Ossett Beercart Festival
+SUMMARY:Flash Co @ Ossett Beercart Festival
 DTSTART;TZID=Europe/London:20250531T100000
 DTEND;TZID=Europe/London:20250531T160000
 UID:2025-05-31T10:00
-DESCRIPTION:Ossett Beercart Festival\nAsk later: (1) Jude\nBand: (2) Phil 
- S\, Tess\nNo: (1) Phil H\nNo response: (5) Carole\, Nicky\, Ruby\, Ruth\, 
- Snozz\nSaturday only: (4) Gemma\, Janet\, Lizzy\, Phil S\nYes: (2) Dave\, 
- Tess\n
+DESCRIPTION:Ossett Beercart Festival\n
 LOCATION:Ossett\, West Yorkshire\, UK
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:TBC Flash Co @ Ripon
-DTSTART;TZID=Europe/London:20250607T100000
-DTEND;TZID=Europe/London:20250607T160000
-UID:2025-06-07T10:00
-DESCRIPTION:400 Roses 20th Anniversary Day of Dance\nAsk later: (1) Jude\n
- Band: (1) Tess\nNo response: (10) Carole\, Gemma\, Janet\, Lizzy\, Nicky\,
-  Phil H\, Phil S\, Ruby\, Ruth\, Snozz\nYes: (2) Dave\, Tess\n
-LOCATION:Ripon\, North Yorkshire\, UK
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Flash Co @ Southwell
 DTSTART;VALUE=DATE:20250703
 DTEND;VALUE=DATE:20250707
 UID:2025-07-03
-DESCRIPTION:Gate to Southwell Festival\nNo response: (13) Carole\, Dave\, 
- Gemma\, Janet\, Jude\, Lizzy\, Nicky\, Phil H\, Phil S\, Ruby\, Ruth\, Sno
- zz\, Tess\n
+DESCRIPTION:Gate to Southwell Festival\n
 LOCATION:Kirklington\, Nottinghamshire\, UK
 END:VEVENT
 BEGIN:VEVENT
@@ -220,8 +185,7 @@ SUMMARY:TBC Flash Co @ Scarborough
 DTSTART;VALUE=DATE:20250711
 DTEND;VALUE=DATE:20250714
 UID:2025-07-11
-DESCRIPTION:Yorkshire Coast Morris W/E Scarborough - 11-13th July\nBand: (
- 1) Tess\nYes: (2) Dave\, Tess\n
+DESCRIPTION:Yorkshire Coast Morris W/E Scarborough\n
 LOCATION:Scarborough\, North Yorkshire\, UK
 END:VEVENT
 BEGIN:VEVENT
@@ -229,9 +193,15 @@ SUMMARY:Flash Co @ Saltburn Festival
 DTSTART;VALUE=DATE:20250809
 DTEND;VALUE=DATE:20250811
 UID:2025-08-09
-DESCRIPTION:Saltburn Festival\nAsk later: (1) Jude\nBand: (3) Phil S\, Sno
- zz\, Tess\nNo: (1) Carole\nNo response: (2) Nicky\, Ruby\nSunday only: (2)
-  Gemma\, Lizzy\nYes: (5) Dave\, Janet\, Phil H\, Ruth\, Tess\n
+DESCRIPTION:Saltburn Festival\n
 LOCATION:Saltburn-by-the-Sea\, UK
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:TBC Flash Co @ Lincoln
+DTSTART;TZID=Europe/London:20250906T100000
+DTEND;TZID=Europe/London:20250906T160000
+UID:2025-09-06T10:00
+DESCRIPTION:Lincoln Day of Dance\n
+LOCATION:Lincoln\, UK
 END:VEVENT
 END:VCALENDAR
