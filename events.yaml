@@ -1,12 +1,4 @@
 - groups: [flash]
-  name: Richmond
-  description: Richmond on Swale Morris Men's Day of Dance
-  location: Richmond, North Yorkshire, UK
-  start_time: 2025-05-04T10:00
-  end_time: 2025-05-04T16:00
-  who: {}
-
-- groups: [flash]
   name: Ossett Beercart Festival
   description: Ossett Beercart Festival
   location: Ossett, West Yorkshire, UK
@@ -47,3 +39,12 @@
   end_time: 2025-09-06T16:00
   tbc: true
   who: {}
+
+- groups: [flash]
+  name: Beverley
+  description: Beverley Garland Day of Dance
+  location: Beverley, East Yorkshire, UK
+  start_time: 2025-06-21T10:00
+  end_time: 2025-06-21T16:00
+  who: {}
+
