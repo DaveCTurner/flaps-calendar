@@ -40,11 +40,3 @@
   tbc: true
   who: {}
 
-- groups: [flash]
-  name: Beverley
-  description: Beverley Garland Day of Dance
-  location: Beverley, East Yorkshire, UK
-  start_time: 2025-06-21T10:00
-  end_time: 2025-06-21T16:00
-  who: {}
-
