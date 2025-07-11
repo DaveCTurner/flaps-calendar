@@ -1,26 +1,9 @@
 - groups: [flash]
-  name: Ossett Beercart Festival
-  description: Ossett Beercart Festival
-  location: Ossett, West Yorkshire, UK
-  start_time: 2025-05-31T10:00
-  end_time: 2025-05-31T16:00
-  who: {}
-
-- groups: [flash]
-  name: Southwell
-  description: Gate to Southwell Festival
-  location: Kirklington, Nottinghamshire, UK
-  start_day: '2025-07-03'
-  end_day: '2025-07-06'
-  who: {}
-
-- groups: [flash]
   name: Scarborough
   description: Yorkshire Coast Morris W/E Scarborough
   location: Scarborough, North Yorkshire, UK
   start_day: '2025-07-11'
   end_day: '2025-07-13'
-  tbc: true
   who: {}
 
 - groups: [flash]
