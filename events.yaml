@@ -1,25 +1,9 @@
 - groups: [flash]
-  name: Scarborough
-  description: Yorkshire Coast Morris W/E Scarborough
-  location: Scarborough, North Yorkshire, UK
-  start_day: '2025-07-11'
-  end_day: '2025-07-13'
-  who: {}
-
-- groups: [flash]
-  name: Saltburn Festival
-  description: Saltburn Festival
-  location: Saltburn-by-the-Sea, UK
-  start_day: '2025-08-09'
-  end_day: '2025-08-10'
-  who: {}
-
-- groups: [flash]
   name: Lincoln
   description: Lincoln Day of Dance
   location: Lincoln, UK
   start_time: 2025-09-06T10:00
   end_time: 2025-09-06T16:00
-  tbc: true
+#  tbc: false
   who: {}
 
