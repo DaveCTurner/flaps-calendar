@@ -1,9 +1,24 @@
 - groups: [flash]
+  name: Victorian Fayre
+  description: Otley Victorian Fayre
+  location: Otley, UK
+  start_time: 2025-12-07T15:00
+  end_time: 2025-12-07T17:00
+  who: {}
+
+- groups: [flash]
+  name: Darlington
+  description: Black Diamon Mixed Cotswold Morris
+  location: Darlington, UK
+  start_time: 2026-04-11T10:00
+  end_time: 2026-04-11T17:00
+  who: {}
+
+- groups: [flash]
   name: Lincoln
-  description: Lincoln Day of Dance
+  description: Lincoln Big Morris 2026
   location: Lincoln, UK
-  start_time: 2025-09-06T10:00
-  end_time: 2025-09-06T16:00
-#  tbc: false
+  start_time: 2026-09-05T10:00
+  end_time: 2026-09-05T17:00
   who: {}
 
