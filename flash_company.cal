@@ -5,34 +5,10 @@ NAME:Flash Company Morris
 X-WR-CALNAME:Flash Company Morris
 X-WR-TIMEZONE:Europe/London
 BEGIN:VEVENT
-SUMMARY:Flash Co NB LOCATION
-DTSTART;TZID=Europe/London:20251102T180000
-DURATION:PT2H
-UID:rehearsal-2025-11-02
-DESCRIPTION:Regular Flash Company rehearsal
-LOCATION:Black Horse Hotel\, 2 Westgate\, Otley LS21 3AS
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Flash Co
-DTSTART;TZID=Europe/London:20251116T180000
+DTSTART;TZID=Europe/London:20251207T180000
 DURATION:PT2H
-UID:rehearsal-2025-11-16
-DESCRIPTION:Regular Flash Company rehearsal
-LOCATION:Clifton Village Hall\, Otley\, LS21 2ES\, UK
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Flash Co
-DTSTART;TZID=Europe/London:20251130T180000
-DURATION:PT2H
-UID:rehearsal-2025-11-30
-DESCRIPTION:Regular Flash Company rehearsal
-LOCATION:Clifton Village Hall\, Otley\, LS21 2ES\, UK
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Flash Co
-DTSTART;TZID=Europe/London:20251214T180000
-DURATION:PT2H
-UID:rehearsal-2025-12-14
+UID:rehearsal-2025-12-07
 DESCRIPTION:Regular Flash Company rehearsal
 LOCATION:Clifton Village Hall\, Otley\, LS21 2ES\, UK
 END:VEVENT

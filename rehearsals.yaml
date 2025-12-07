@@ -1,21 +1,5 @@
 - group: flash
-  date: '2025-11-02'
-  location: Black Horse Hotel, 2 Westgate, Otley LS21 3AS
-
-- group: taps
-  date: '2025-11-09'
-
-- group: flash
-  date: '2025-11-16'
-
-- group: taps
-  date: '2025-11-23'
-
-- group: flash
-  date: '2025-11-30'
-
-- group: taps
   date: '2025-12-07'
 
-- group: flash
+- group: taps
   date: '2025-12-14'
