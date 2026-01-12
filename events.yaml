@@ -15,6 +15,22 @@
   who: {}
 
 - groups: [flash]
+  name: Scarborough
+  description: Yorkshire Coast Morris
+  location: Scarborough, UK
+  start_day: '2026-06-19'
+  end_day: '2026-06-21'
+  who: {}
+
+- groups: [flash]
+  name: Saltburn
+  description: Saltburn Folk Festival
+  location: Saltburn, UK
+  start_day: '2026-08-07'
+  end_day: '2026-08-09'
+  who: {}
+
+- groups: [flash]
   name: Lincoln
   description: Lincoln Big Morris 2026
   location: Lincoln, UK
@@ -22,3 +38,10 @@
   end_time: 2026-09-05T17:00
   who: {}
 
+- groups: [flash]
+  name: Otley Folk Festival
+  description: Otley Folk Festival
+  location: Otley, UK
+  start_day: '2026-09-19'
+  end_day: '2026-09-20'
+  who: {}
