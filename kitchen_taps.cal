@@ -4,12 +4,4 @@ PRODID:-//DCT//DCT//EN
 NAME:Kitchen Taps
 X-WR-CALNAME:Kitchen Taps
 X-WR-TIMEZONE:Europe/London
-BEGIN:VEVENT
-SUMMARY:Taps
-DTSTART;TZID=Europe/London:20251214T180000
-DURATION:PT2H
-UID:rehearsal-2025-12-14
-DESCRIPTION:Regular Kitchen Taps rehearsal
-LOCATION:Clifton Village Hall\, Otley\, LS21 2ES\, UK
-END:VEVENT
 END:VCALENDAR

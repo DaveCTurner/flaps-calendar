@@ -1,25 +1,17 @@
 - groups: [flash]
-  name: Victorian Fayre
-  description: Otley Victorian Fayre
-  location: Otley, UK
-  start_time: 2025-12-07T15:00
-  end_time: 2025-12-07T17:00
-  who: {}
-
-- groups: [flash]
-  name: Darlington
-  description: Black Diamon Mixed Cotswold Morris
-  location: Darlington, UK
-  start_time: 2026-04-11T10:00
-  end_time: 2026-04-11T17:00
-  who: {}
-
-- groups: [flash]
   name: Scarborough
   description: Yorkshire Coast Morris
   location: Scarborough, UK
   start_day: '2026-06-19'
   end_day: '2026-06-21'
+  who: {}
+
+- groups: [flash]
+  name: Wayzgoose
+  description: Dance out with Wayzgoose
+  location: Otley, UK
+  start_day: '2026-06-30'
+  end_day: '2026-06-30'
   who: {}
 
 - groups: [flash]
